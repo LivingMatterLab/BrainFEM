@@ -29,6 +29,6 @@ The Output/ directory contains a log.txt file that contains all terminal display
 The PostProcess/ directory is intended to save all Paraview output files and other output files, such as figures or videos.
 
 #-------------------------------------#\
-Typical error messages
+Typical error messages\
 #-------------------------------------#
 1) Error in OutputHelper.pyx, line 131: w.SetInputData(ug). This depends on vtk version. Try to comment line 131, and uncomment line 130.
