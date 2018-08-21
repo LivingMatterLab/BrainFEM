@@ -12,7 +12,7 @@ All other directories     Each directory represents a different model. These dir
 
 #-------------------------------------#\
 Getting started (for MacOS)\
-#-------------------------------------#\
+#-------------------------------------#
 1) Download and install anaconda: https://www.anaconda.com/download/#macos\
 2) Download and install paraview: https://www.paraview.org/download/\
 3) Install vtk by running from the terminal: conda install -c anaconda vtk \
