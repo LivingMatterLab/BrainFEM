@@ -32,3 +32,11 @@ The PostProcess/ directory is intended to save all Paraview output files and oth
 Typical error messages\
 #-------------------------------------#
 1) Error in OutputHelper.pyx, line 131: w.SetInputData(ug). This depends on vtk version. Try to comment line 131, and uncomment line 130.
+
+#-------------------------------------#\
+Scientific papers using this code\
+#-------------------------------------#
+1) https://link.springer.com/article/10.1007/s00466-016-1359-y
+2) https://www.sciencedirect.com/science/article/pii/S0006349517312390
+3) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5997835/
+4) https://www.sciencedirect.com/science/article/pii/S0022509617310347
