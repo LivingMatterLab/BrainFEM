@@ -27,3 +27,8 @@ Every time a model is ran, a subdirectory called RES_*** . The subdirectory cont
 The Input/ directory contains copies of all input files that can later be used to reproduce the results.\
 The Output/ directory contains a log.txt file that contains all terminal display output. It further contains of optional, user defined files that are model dependent and can be coded in the virtual WriteStepOutput(self, Solver s) function.\
 The PostProcess/ directory is intended to save all Paraview output files and other output files, such as figures or videos.
+
+#-------------------------------------#\
+Typical error messages
+#-------------------------------------#
+1) Error in OutputHelper.pyx, line 131: w.SetInputData(ug). This depends on vtk version. Try to comment line 131, and uncomment line 130.
