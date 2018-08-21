@@ -11,6 +11,7 @@ All other directories     Each directory represents a different model. These dir
 
 
 #-------------------------------------#
+
 Getting started (for MacOS)
 #-------------------------------------#
 1) Download and install anaconda: https://www.anaconda.com/download/#macos
