@@ -13,8 +13,8 @@ All other directories     Each directory represents a different model. These dir
 #-------------------------------------#\
 Getting started (for MacOS)\
 #-------------------------------------#
-1) Download and install anaconda (Python 2.7 version): https://www.anaconda.com/download/#macos\
-2) Download and install paraview: https://www.paraview.org/download/\
+1) Download and install anaconda (Python 2.7 version): https://www.anaconda.com/download/#macos  \
+2) Download and install paraview: https://www.paraview.org/download/  \
 3) Install vtk by running from the terminal: conda install -c anaconda vtk \
 4) Test that Cython is working correctly by running Main.py in the TestCython directory. From terminal, run: python Main.py\
 5) Test that standard FEM is working by running Main_BarTest_B3.py in the BarTest_B3 directory. Note, this is a simple finite element model of a single bar element that is rotated and stretched.\
