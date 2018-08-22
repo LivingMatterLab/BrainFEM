@@ -2,8 +2,8 @@ import os
 from paraview.simple import *
 
 # Compute filenames
-main_folder = '/Users/rderooij/Documents/Stanford/GROWAN/Cython/SolidModels/MTwithCortex_B3/'
-model_folder = 'RES_022_force_clDyn/'
+main_folder = '.../MTwithCortex_B3/'
+model_folder = #REPLACE_HERE#
 
 # Extract filename of .pvd file
 pvdFile = None
