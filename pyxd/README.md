@@ -56,3 +56,29 @@ NOTE: All elements are geometrically nonlinear
     PBAR1.*         Bar property with internal force
     
     PBEAM.*         Beam property
+    
+    PDAMAGE.*       Damage property (damage softening, very basic, no length scale)
+    
+    PMAXWELL.*      Maxwell property
+    
+    PRESSURE.*      Pressure load (follows deformation)
+    
+    Property.*      Parent object for all properties
+    
+    PSOLID10.*      Isotropic prescribed growth property
+    
+    PSOLID11.*      Anisotropic prescribed fiber growth property
+    
+    PSOLID12.*      Anisotropic prescribed area growth property
+    
+    PSOLID20.*      Isotropic stretch driven growth property
+    
+    PSOLID21.*      Anisotropic stretch driven fiber growth property
+    
+    PSOLID71.*      Orthotropic growth and cell migration/diffusion property (used in https://www.sciencedirect.com/science/article/pii/S0022509617310347)
+    
+    SOL2.*          Newton-Raphson solver
+    
+    Solver.*        Parent object for all solvers
+    
+    SPC.*           Single point constraint
