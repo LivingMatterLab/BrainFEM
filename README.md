@@ -18,7 +18,7 @@ Getting started (for MacOS)\
 3) Install vtk by running from the terminal: conda install -c anaconda vtk \
 4) Test that Cython is working correctly by running Main.py in the TestCython directory. From terminal, run: python Main.py\
 5) Test that standard FEM is working by running Main_BarTest_B3.py in the BarTest_B3 directory. Note, this is a simple finite element model of a single bar element that is rotated and stretched.\
-6) Test that the extension of FEM is working by running Main_DyneinModel_B3.py in DyneinModel_B3 directory. This is a simple model of dynein molecules pushing a microtubules forward.\
+6) Test that the extension of FEM is working by running Main_DyneinModel_B3.py in DyneinModel_B3 directory. This is a simple model of dynein molecules pushing a microtubules forward. NOTE: line 5 of DyneinModel_B3\paraView.py needs to be updated with full path to the DyneinModel_B3 in order for load paraView.py from ParaView correctly. \
 
 #-------------------------------------#\
 Basic info\
@@ -26,7 +26,8 @@ Basic info\
 Every time a model is ran, a subdirectory called RES_*** . The subdirectory contains a Input/, Output/, and PostProcess/ directory.\
 The Input/ directory contains copies of all input files that can later be used to reproduce the results.\
 The Output/ directory contains a log.txt file that contains all terminal display output. It further contains of optional, user defined files that are model dependent and can be coded in the virtual WriteStepOutput(self, Solver s) function.\
-The PostProcess/ directory is intended to save all Paraview output files and other output files, such as figures or videos.
+The PostProcess/ directory is intended to save all Paraview output files and other output files, such as figures or videos.\
+The Parview output files can be loaded into ParaView by opening the .pvd file in the PostProcess\ folder. Alternatively, some examples will have a ParaView.py in the Input\ folder. This python script can be opened in ParaView from Tools -> Python Shell -> Run Script.
 
 #-------------------------------------#\
 Typical error messages\
