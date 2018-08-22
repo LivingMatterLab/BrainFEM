@@ -2,7 +2,7 @@ import os
 from paraview.simple import *
 
 # Compute filenames
-main_folder = '.../MTwithCortex_B3/'
+main_folder = '.../AxonWithCortex/'
 model_folder = #REPLACE_HERE#
 
 # Extract filename of .pvd file
