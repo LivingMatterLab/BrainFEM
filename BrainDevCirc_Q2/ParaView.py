@@ -2,8 +2,8 @@ import os
 from paraview.simple import *
 
 # Compute filenames
-main_folder = '/Users/rderooij/Documents/Stanford/GROWAN/Cython/SolidModels/BrainDevCirc_Q2/'
-model_folder = 'RES_001/'
+main_folder = '..../BrainDevCirc_Q2/'
+model_folder = #REPLACE_HERE#
 
 # Extract filename of .pvd file
 pvdFile = None
