@@ -2,7 +2,7 @@ import os
 from paraview.simple import *
 
 # Compute filenames
-main_folder = '/Users/rderooij/Documents/Stanford/GROWAN/Cython/StudentCodes/IngridCode/MainCode/DyneinModel_B3/'
+main_folder = '..../DyneinModel_B3/'
 model_folder = #REPLACE_HERE#
 
 paraFiles = []
