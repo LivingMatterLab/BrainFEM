@@ -1,0 +1,6 @@
+<ColorMap name="a" space="RGB">
+<Point x="1.0" o="1" r="1.0" g="0.84313" b="0"/>
+<Point x="5."  o="1" r="0." g="1.0" b="0."/>
+<Point x="10." o="1" r="0.23529" g="0.23529" b="1.0"/>
+<Point x="15." o="1" r="1." g="0.4" b="0.4"/>
+</ColorMap>
