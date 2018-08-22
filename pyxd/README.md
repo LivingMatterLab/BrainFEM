@@ -1,4 +1,4 @@
-File descriptions:
+File descriptions:\
 NOTE: All elements are geometrically nonlinear
 
     Amplitude.*     Stores time versus amplitude arrays. Used to create time dependent SPC or LOAD
